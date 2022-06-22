@@ -18,7 +18,7 @@ export default function Home() {
         <div className="z-10 max-w-md px-4 pt-8 pb-16 mx-auto text-center space-y-6 sm:space-y-8">
           {/* PRODUCT LOGO */}
           <div className="inline-block space-y-6 sm:space-y-8">
-            <img src="/product-logo-full.svg" alt="Piper logo" width={79} height={102} />
+            <img src="/MH_logo_full_name.png" alt="MH logo" width={228} height={50} />
             <div className="w-full bg-primary-accent h-[1px]">
               <div className="border-b border-white mix-blend-soft-light" />
             </div>
@@ -27,14 +27,13 @@ export default function Home() {
           <div className="space-y-4">
             {/* PRODUCT-COPY HEADING */}
             <h1 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">
-              Start optimising <br />
-              your savings
+              Start getting <br />
+              your goals
             </h1>
 
             {/* PRODUCT-COPY SHORT DESCRIPTION */}
             <p className="text-sm leading-relaxed text-white sm:text-base text-opacity-90">
-              Piper helps you track and optimise your savings. For every dollar saved you get 10% cashback into your
-              account.
+              Multipliher helps you grow your savings and reach your goals faster.
             </p>
           </div>
 

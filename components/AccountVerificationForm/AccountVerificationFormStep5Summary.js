@@ -4,6 +4,7 @@ import { useAccountVerificationForm } from './AccountVerificationFormProvider';
 import { StepHeading } from './StepHeading';
 import { StepDescription } from './StepDescription';
 import { StepLogo } from './StepLogo';
+import Link from 'next/link'
 
 export function AccountVerificationFormStep5Summary() {
   const { finish, accountVerificationFormState } = useAccountVerificationForm();
@@ -102,9 +103,11 @@ export function AccountVerificationFormStep5Summary() {
         </p>
 
         {/* Action */}
-        <Button variant="bold" block onClick={finish}>
+        <Link href="https://dev.multipliher.com.au/payment" passHref>
+        <Button variant="bold" block>
           Done
         </Button>
+        </Link>
       </div>
     </div>
   );
